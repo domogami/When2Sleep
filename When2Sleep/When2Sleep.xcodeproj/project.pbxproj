@@ -14,26 +14,11 @@
 		D60060DC240537ED00BEFFCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60060DB240537ED00BEFFCC /* Assets.xcassets */; };
 		D60060DF240537ED00BEFFCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60060DE240537ED00BEFFCC /* Preview Assets.xcassets */; };
 		D60060E2240537ED00BEFFCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60060E0240537ED00BEFFCC /* LaunchScreen.storyboard */; };
-		D60060ED240537ED00BEFFCC /* When2SleepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60060EC240537ED00BEFFCC /* When2SleepTests.swift */; };
-		D60060F8240537EE00BEFFCC /* When2SleepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60060F7240537EE00BEFFCC /* When2SleepUITests.swift */; };
+		D65C22552484AE6F0057BCFD /* Song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D65C22542484AE6F0057BCFD /* Song1.mp3 */; };
+		D65C22572484AE9F0057BCFD /* Song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D65C22562484AE9F0057BCFD /* Song2.mp3 */; };
+		D6840A5824872A1700133B68 /* Song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6840A5724872A1700133B68 /* Song3.mp3 */; };
+		D6840A5A24872A3300133B68 /* Song4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6840A5924872A3300133B68 /* Song4.mp3 */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D60060E9240537ED00BEFFCC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D60060C7240537E900BEFFCC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D60060CE240537E900BEFFCC;
-			remoteInfo = When2Sleep;
-		};
-		D60060F4240537EE00BEFFCC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D60060C7240537E900BEFFCC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D60060CE240537E900BEFFCC;
-			remoteInfo = When2Sleep;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D60060CF240537E900BEFFCC /* When2Sleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = When2Sleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,30 +30,14 @@
 		D60060DE240537ED00BEFFCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D60060E1240537ED00BEFFCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D60060E3240537ED00BEFFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D60060E8240537ED00BEFFCC /* When2SleepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = When2SleepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D60060EC240537ED00BEFFCC /* When2SleepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = When2SleepTests.swift; sourceTree = "<group>"; };
-		D60060EE240537ED00BEFFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D60060F3240537EE00BEFFCC /* When2SleepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = When2SleepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D60060F7240537EE00BEFFCC /* When2SleepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = When2SleepUITests.swift; sourceTree = "<group>"; };
-		D60060F9240537EE00BEFFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65C22542484AE6F0057BCFD /* Song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Song1.mp3; path = ../../../../../Downloads/Song1.mp3; sourceTree = "<group>"; };
+		D65C22562484AE9F0057BCFD /* Song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Song2.mp3; path = ../../../../../Downloads/Song2.mp3; sourceTree = "<group>"; };
+		D6840A5724872A1700133B68 /* Song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Song3.mp3; path = ../../../../../Downloads/Song3.mp3; sourceTree = "<group>"; };
+		D6840A5924872A3300133B68 /* Song4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Song4.mp3; path = ../../../../../Downloads/Song4.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D60060CC240537E900BEFFCC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D60060E5240537ED00BEFFCC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D60060F0240537EE00BEFFCC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				D60060D1240537E900BEFFCC /* When2Sleep */,
-				D60060EB240537ED00BEFFCC /* When2SleepTests */,
-				D60060F6240537EE00BEFFCC /* When2SleepUITests */,
 				D60060D0240537E900BEFFCC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				D60060CF240537E900BEFFCC /* When2Sleep.app */,
-				D60060E8240537ED00BEFFCC /* When2SleepTests.xctest */,
-				D60060F3240537EE00BEFFCC /* When2SleepUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +70,10 @@
 				D60060D4240537E900BEFFCC /* SceneDelegate.swift */,
 				D60060D9240537E900BEFFCC /* ContentView.swift */,
 				D60060DB240537ED00BEFFCC /* Assets.xcassets */,
+				D65C22542484AE6F0057BCFD /* Song1.mp3 */,
+				D65C22562484AE9F0057BCFD /* Song2.mp3 */,
+				D6840A5724872A1700133B68 /* Song3.mp3 */,
+				D6840A5924872A3300133B68 /* Song4.mp3 */,
 				D60060E0240537ED00BEFFCC /* LaunchScreen.storyboard */,
 				D60060E3240537ED00BEFFCC /* Info.plist */,
 				D60060D6240537E900BEFFCC /* When2Sleep.xcdatamodeld */,
@@ -119,24 +88,6 @@
 				D60060DE240537ED00BEFFCC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		D60060EB240537ED00BEFFCC /* When2SleepTests */ = {
-			isa = PBXGroup;
-			children = (
-				D60060EC240537ED00BEFFCC /* When2SleepTests.swift */,
-				D60060EE240537ED00BEFFCC /* Info.plist */,
-			);
-			path = When2SleepTests;
-			sourceTree = "<group>";
-		};
-		D60060F6240537EE00BEFFCC /* When2SleepUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D60060F7240537EE00BEFFCC /* When2SleepUITests.swift */,
-				D60060F9240537EE00BEFFCC /* Info.plist */,
-			);
-			path = When2SleepUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,42 +110,6 @@
 			productReference = D60060CF240537E900BEFFCC /* When2Sleep.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D60060E7240537ED00BEFFCC /* When2SleepTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D60060FF240537EE00BEFFCC /* Build configuration list for PBXNativeTarget "When2SleepTests" */;
-			buildPhases = (
-				D60060E4240537ED00BEFFCC /* Sources */,
-				D60060E5240537ED00BEFFCC /* Frameworks */,
-				D60060E6240537ED00BEFFCC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D60060EA240537ED00BEFFCC /* PBXTargetDependency */,
-			);
-			name = When2SleepTests;
-			productName = When2SleepTests;
-			productReference = D60060E8240537ED00BEFFCC /* When2SleepTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D60060F2240537EE00BEFFCC /* When2SleepUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D6006102240537EE00BEFFCC /* Build configuration list for PBXNativeTarget "When2SleepUITests" */;
-			buildPhases = (
-				D60060EF240537EE00BEFFCC /* Sources */,
-				D60060F0240537EE00BEFFCC /* Frameworks */,
-				D60060F1240537EE00BEFFCC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D60060F5240537EE00BEFFCC /* PBXTargetDependency */,
-			);
-			name = When2SleepUITests;
-			productName = When2SleepUITests;
-			productReference = D60060F3240537EE00BEFFCC /* When2SleepUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,14 +122,6 @@
 				TargetAttributes = {
 					D60060CE240537E900BEFFCC = {
 						CreatedOnToolsVersion = 11.3.1;
-					};
-					D60060E7240537ED00BEFFCC = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = D60060CE240537E900BEFFCC;
-					};
-					D60060F2240537EE00BEFFCC = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = D60060CE240537E900BEFFCC;
 					};
 				};
 			};
@@ -232,8 +139,6 @@
 			projectRoot = "";
 			targets = (
 				D60060CE240537E900BEFFCC /* When2Sleep */,
-				D60060E7240537ED00BEFFCC /* When2SleepTests */,
-				D60060F2240537EE00BEFFCC /* When2SleepUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,23 +148,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D65C22552484AE6F0057BCFD /* Song1.mp3 in Resources */,
+				D6840A5A24872A3300133B68 /* Song4.mp3 in Resources */,
+				D65C22572484AE9F0057BCFD /* Song2.mp3 in Resources */,
 				D60060E2240537ED00BEFFCC /* LaunchScreen.storyboard in Resources */,
 				D60060DF240537ED00BEFFCC /* Preview Assets.xcassets in Resources */,
 				D60060DC240537ED00BEFFCC /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D60060E6240537ED00BEFFCC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D60060F1240537EE00BEFFCC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				D6840A5824872A1700133B68 /* Song3.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,36 +172,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D60060E4240537ED00BEFFCC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D60060ED240537ED00BEFFCC /* When2SleepTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D60060EF240537EE00BEFFCC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D60060F8240537EE00BEFFCC /* When2SleepUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D60060EA240537ED00BEFFCC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D60060CE240537E900BEFFCC /* When2Sleep */;
-			targetProxy = D60060E9240537ED00BEFFCC /* PBXContainerItemProxy */;
-		};
-		D60060F5240537EE00BEFFCC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D60060CE240537E900BEFFCC /* When2Sleep */;
-			targetProxy = D60060F4240537EE00BEFFCC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D60060E0240537ED00BEFFCC /* LaunchScreen.storyboard */ = {
@@ -370,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -424,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -443,14 +309,16 @@
 				DEVELOPMENT_TEAM = KCBAXZFAK6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = When2Sleep/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.domogami.When2Sleep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,98 +331,16 @@
 				DEVELOPMENT_TEAM = KCBAXZFAK6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = When2Sleep/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.domogami.When2Sleep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		D6006100240537EE00BEFFCC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KCBAXZFAK6;
-				INFOPLIST_FILE = When2SleepTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.domogami.When2SleepTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/When2Sleep.app/When2Sleep";
-			};
-			name = Debug;
-		};
-		D6006101240537EE00BEFFCC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KCBAXZFAK6;
-				INFOPLIST_FILE = When2SleepTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.domogami.When2SleepTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/When2Sleep.app/When2Sleep";
-			};
-			name = Release;
-		};
-		D6006103240537EE00BEFFCC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KCBAXZFAK6;
-				INFOPLIST_FILE = When2SleepUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.domogami.When2SleepUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = When2Sleep;
-			};
-			name = Debug;
-		};
-		D6006104240537EE00BEFFCC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KCBAXZFAK6;
-				INFOPLIST_FILE = When2SleepUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.github.domogami.When2SleepUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = When2Sleep;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -575,24 +361,6 @@
 			buildConfigurations = (
 				D60060FD240537EE00BEFFCC /* Debug */,
 				D60060FE240537EE00BEFFCC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D60060FF240537EE00BEFFCC /* Build configuration list for PBXNativeTarget "When2SleepTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D6006100240537EE00BEFFCC /* Debug */,
-				D6006101240537EE00BEFFCC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D6006102240537EE00BEFFCC /* Build configuration list for PBXNativeTarget "When2SleepUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D6006103240537EE00BEFFCC /* Debug */,
-				D6006104240537EE00BEFFCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
